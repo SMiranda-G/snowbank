@@ -1,0 +1,1 @@
+For the airflow we need another  docker file (.dockerfile), we use it bcs at one point we will be automating the **dbt** run process
