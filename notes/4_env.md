@@ -1,0 +1,13 @@
+### Postgres (Banking DB)
+POSTGRES_USER=<br>
+POSTGRES_PASSWORD=<br>
+POSTGRES_DB=<br>
+
+### MinIO
+MINIO_ROOT_USER=<br>
+MINIO_ROOT_PASSWORD=<br>
+
+### Airflow DB
+AIRFLOW_DB_USER=<br>
+AIRFLOW_DB_PASSWORD=<br>
+AIRFLOW_DB_NAME=<br>

@@ -1,0 +1,155 @@
+# ==========================
+# Python & Virtual Environments
+# ==========================
+__pycache__/
+*.py[cod]
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv
+.virtualenv
+
+# ==========================
+# Airflow
+# ==========================
+airflow.cfg
+webserver_config.py
+logs/
+dags/__pycache__/
+plugins/__pycache__/
+airflow.db
+airflow-webserver.pid
+airflow-scheduler.pid
+unittests.cfg
+*.db
+*.sqlite
+
+# ==========================
+# DBT (Data Build Tool)
+# ==========================
+dbt_modules/
+dbt_packages/
+logs/
+target/
+# CRITICAL: Never commit your DBT profiles (contains Snowflake credentials)
+profiles.yml
+.venv/
+*.log
+
+# ==========================
+# Kafka / Debezium / Zookeeper
+# ==========================
+/kafka/logs/
+/zookeeper/data/
+/zookeeper/logs/
+*.log
+meta.properties
+
+# ==========================
+# PostgreSQL (local data)
+# ==========================
+pgdata/
+*.pem
+*.key
+
+# ==========================
+# Environment Variables & Secrets
+# ==========================
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+*.crt
+secrets/
+credentials/
+snowflake_credentials.json
+service_account.json
+
+# ==========================
+# Docker
+# ==========================
+docker-compose.override.yml
+.dockerignore
+*.pid
+docker/volumes/
+
+# ==========================
+# OS / System Files
+# ==========================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+*.swp
+*.swo
+*~
+*.tmp
+
+# ==========================
+# IDEs (VSCode, PyCharm, IntelliJ)
+# ==========================
+.vscode/
+.idea/
+*.iml
+.project
+.classpath
+.settings/
+*.code-workspace
+.vscode-test/
+
+# ==========================
+# Terraform (if you use it for infra)
+# ==========================
+*.tfstate
+*.tfstate.*
+.terraform/
+terraform.tfvars
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraform.lock.hcl
+
+# ==========================
+# Misc / Data files (local testing)
+# ==========================
+*.csv
+*.parquet
+*.json
+!sample_data.json
+*.log
+*.out
+*.err
+*.pid
+
+# ==========================
+# Jupyter Notebooks (optional)
+# ==========================
+.ipynb_checkpoints/
+*.ipynb
